@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <input type="text" id="myInput" value="Initial Value">
+  <button id="btn">Enter</button>
+  <ul>
+
+  </ul>
+  <script>
+    const list = document.querySelector("ul");
+    let newItem = document.createElement("li");
+    const btn = document.querySelector("#btn");
+    btn.addEventListener("click", ()=>{
+      let inputValue = document.getElementById("myInput").value;
+      let textNode = document.createTextNode(inputValue);
+      newItem.appendChild(textNode);
+      list.appendChild(newItem);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+a:link {
+  color: rgb(0,113,133);
+}
+a:visited {
+  color: blueviolet;
+}
+a:active{
+  color: red;
+}
+.green{
+  color: rgb(0,118,0);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font: bolder;
+  font-size: large ;
+}
+.add{
+  background-color:rgb(255,216,20);
+  color: black;
+  border: none;
+  height: 30px;
+  width: 110px;
+  border-radius: 50px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.buy{
+  background-color: rgb(255,164,28);
+  color: black;
+  border: none;
+  border-radius: 50px;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<div id="myDiv" value = "nikhil">Some text in the div</div>
+<input type="text" id="myInput">
+
+<script>
+  const divValue = document.getElementById("myDiv");
+  const text = divValue.value;
+  console.log(text);
+  const input = document.getElementById("myInput");
+  divValue.addEventListener("click", function(){
+     input.value = text;
+  });
+</script>
+</html>
